@@ -1,0 +1,32 @@
+h2,h5{
+  text-align: center;
+}
+body,#head{
+  color: rgb(21, 121, 189);
+}
+div{
+  color: rgb(4, 4, 202);
+}
+#outer{
+  border-style: solid;
+  border-color: rgb(21, 121, 189);
+  margin: 10 400 100 400;
+  padding: 40;
+}
+#list{
+  margin:20;
+  padding: 0;
+}
+#sec_col{
+  border-left: solid rgb(21, 121, 189) ;
+  padding: 30;
+}
+#head{
+  left: 38%;
+  right: 50%;
+  width: 300;
+  padding-bottom: 10;
+  background-color: white;
+  position:relative;
+  top:40px;
+}
