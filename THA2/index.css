@@ -1,0 +1,11 @@
+h2{
+    color: brown;
+    font-family: sans-serif;
+  }
+  body {
+    font-family: 'Raleway', serif;
+    background: rgb(46, 161, 90);
+    color: rgb(190, 211, 70);
+    text-align: left;
+    margin: 30px;
+  }
