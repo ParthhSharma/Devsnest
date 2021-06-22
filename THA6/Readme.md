@@ -9,3 +9,5 @@
 ![Ans 4](4.PNG)
 ## Answer 5
 ![Ans 5](5.PNG)
+## Answer 6
+![Ans 6](6.PNG)
