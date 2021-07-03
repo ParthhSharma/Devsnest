@@ -3,48 +3,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Day 10</title>
 </head>
 <body>
+  <div class="popup">
+    <div>
+        <h2></h2>
+        <br>
+        Play Again
+        <br>
+        <button class="shadow" id="reload"><i class="fa fa-refresh" aria-hidden="true"></i></button>
+    </div>
+</div>
+  <div id="moves">Moves Remaining:&nbsp;<span>40</span></div>
     <div class="container">
-        <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-              </div>
-              <div class="flip-card-back">
-              </div>
-            </div>
-          </div><div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-              </div>
-              <div class="flip-card-back">
-              </div>
-            </div>
-          </div><div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-              </div>
-              <div class="flip-card-back">
-              </div>
-            </div>
-          </div><div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-              </div>
-              <div class="flip-card-back">
-              </div>
-            </div>
-          </div><div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-              </div>
-              <div class="flip-card-back">
-              </div>
-            </div>
-          </div><div class="flip-card">
+        <div id="1" class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
               </div>
@@ -52,7 +30,7 @@
               </div>
             </div>
           </div>
-          <div class="flip-card">
+          <div id="2" class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
               </div>
@@ -60,7 +38,7 @@
               </div>
             </div>
           </div>
-          <div class="flip-card">
+          <div id="3" class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
               </div>
@@ -68,7 +46,7 @@
               </div>
             </div>
           </div>
-          <div class="flip-card">
+          <div id="4" class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
               </div>
@@ -76,7 +54,7 @@
               </div>
             </div>
           </div>
-          <div class="flip-card">
+          <div id="5" class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
               </div>
@@ -84,7 +62,7 @@
               </div>
             </div>
           </div>
-        <div class="flip-card">
+          <div id="6" class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
               </div>
@@ -92,63 +70,111 @@
               </div>
             </div>
           </div>
-          <div class="flip-card">
+          <div id="7" class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
               </div>
               <div class="flip-card-back">
               </div>
             </div>
-          </div><div class="flip-card">
+          </div>
+          <div id="8" class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
               </div>
               <div class="flip-card-back">
               </div>
             </div>
-          </div><div class="flip-card">
+          </div>
+          <div id="9" class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
               </div>
               <div class="flip-card-back">
               </div>
             </div>
-          </div><div class="flip-card">
+          </div>
+          <div id="10" class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
               </div>
               <div class="flip-card-back">
               </div>
             </div>
-          </div><div class="flip-card">
+          </div>
+          <div id="11" class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
               </div>
               <div class="flip-card-back">
               </div>
             </div>
-          </div><div class="flip-card">
+          </div>
+          <div id="12" class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
               </div>
               <div class="flip-card-back">
               </div>
             </div>
-          </div><div class="flip-card">
+          </div>
+          <div id="13" class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
               </div>
               <div class="flip-card-back">
               </div>
             </div>
-          </div><div class="flip-card">
+          </div>
+          <div id="14" class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
               </div>
               <div class="flip-card-back">
               </div>
             </div>
-          </div><div class="flip-card">
+          </div>
+          <div id="15" class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+              </div>
+              <div class="flip-card-back">
+              </div>
+            </div>
+          </div>
+          <div id="16" class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+              </div>
+              <div class="flip-card-back">
+              </div>
+            </div>
+          </div>
+          <div id="17" class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+              </div>
+              <div class="flip-card-back">
+              </div>
+            </div>
+          </div>
+          <div id="18" class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+              </div>
+              <div class="flip-card-back">
+              </div>
+            </div>
+          </div>
+          <div id="19" class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+              </div>
+              <div class="flip-card-back">
+              </div>
+            </div>
+          </div>
+          <div id="20" class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
               </div>
