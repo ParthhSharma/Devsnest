@@ -7,9 +7,10 @@ body{
     
 }
 .container{
-  margin-top: 160px;
-  margin-left: 200px;
-  margin-right: 200px;
+  /* margin-top: 30px; */
+  /* margin-left: 200px;
+  margin-right: 200px; */
+  margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding: auto;
@@ -17,6 +18,8 @@ body{
 .flip-card {
     width: 220px;
     height: 140px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 20px;
     perspective: 1000px;
     border-radius: 10%;
@@ -43,13 +46,62 @@ body{
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10%;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    /* border: 1px solid rgba(255, 255, 255, 0.18); */
   }
   .flipped{
+    
     transform: rotateY(180deg);
   }
   
   .flip-card-back {
     /* background-color: #2980b9; */
     transform: rotateY(180deg);
+  }
+  #moves{
+    font-weight: 900;
+    font-family: lato sans-serif;
+    font-size: 50px;
+    color:white;
+    margin-top:10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .popup {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    display: none;
+    transition: transform 0.5s;
+  }
+  .popup > div {
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* transition: transform 1s; */
+  }
+  #reload{
+    border: 0;
+    background-color: #f13637;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    color: #fff;
+    vertical-align: middle;
+    font-size: 1.2rem !important;
+    margin: 10px 0;
+    /* transition: transform 1s; */
+  }
+  #reload:active, #reload:focus{
+    outline: none;
   }
