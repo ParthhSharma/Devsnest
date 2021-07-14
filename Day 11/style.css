@@ -123,11 +123,10 @@ body{
     /* width: 500px; */
     display: none;
 }
-.total_que span{
+.total_que{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    /* width: 200px; */
     height: 4px;
     color: #fff;
     font-size: 15px;
@@ -135,6 +134,7 @@ body{
     padding-bottom: 15px;
     outline: none;
     border: none;  
+    flex-direction: row;
     
 }
 .quiz_box header .timer{
@@ -188,11 +188,10 @@ body{
 .result_box .buttons .restart,.result_box .buttons .quit{
     margin: 10px;
 }
-#que1{
-    
-    /* display: none; */
-}
-#que2{
+.que{
     display: none;
-    position: static;
 }
+/* .total_que{
+
+    
+} */
