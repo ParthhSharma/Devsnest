@@ -1,2 +1,2 @@
 # Output of THA Day14
-![Output of THA Day14](Output.PNG)
+![Output of THA Day14](Output.png)
