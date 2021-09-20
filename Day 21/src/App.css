@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+
+}
+.App {
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ /* align-items: center; */
+}
+
+.btn{
+  margin: 10px;
+  height: 30px;
+  width: 80px;
+  align-items: center;
+  background-color: blue;
+  color: azure;
+}
+
+input{
+  height: 30px;
+  margin: 0 5px;
+}
+ 
