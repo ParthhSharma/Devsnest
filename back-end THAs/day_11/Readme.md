@@ -1,2 +1,2 @@
 # Output of back-end THA Day 11
-![Output of THA Day 11](output.png)
+![Output of THA Day 11](output.png.jpg)
